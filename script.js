@@ -26,9 +26,9 @@ $(document).ready(function(){
 					"<div class='card-body'>"+
 					"<div clas='container'>"+
 
-					"<h5 class='card-title'>"+
+					"<h5 class='card-title'><b>"+
 					producto[j].name+
-					"</h5><br/>"+
+					"</b></h5><br/>"+
 					"<h5>Precio: "+
 					producto[j].price+
 					"</h5>"+
