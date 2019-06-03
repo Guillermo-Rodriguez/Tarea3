@@ -18,7 +18,7 @@ $(document).ready(function(){
 				for(i=0; i<producto.length; i++){
 					//console.log(prod);
 					newProd+=
-					//"<div class='col-md-3'>"+
+					"<div class='col-md-4'>"+
 					"<div class='card mt-2 ml-2' style='width: 18rem;' >"+
 					"<img class='card-img-top' src="+
 					producto[j].image+
@@ -30,13 +30,13 @@ $(document).ready(function(){
 					producto[j].name+
 					"</h5><br/>"+
 					"<h5>Precio: "+
-					producto[j].name+
+					producto[j].price+
 					"</h5>"+
-					"<p>"+
 					"<div clas='container'>"+
+					"<p align='justify'>"+
 					producto[j].description+
-					"</div>"+
 					"</p>"+
+					"</div>"+
 
 					"</h5>Cantidad: "+
 					producto[j].stock+
@@ -45,8 +45,8 @@ $(document).ready(function(){
 					"</div>"+
 
 					"</div>"+
+					"</div>"+
 					"</div>"
-					//"</div>"
 					;
 
 					$("#catalogo").html(newProd);
